@@ -11,17 +11,22 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #1a1f4a;
+            padding: 10px;
+            box-sizing: border-box;
         }
 
         .container {
+            width: 100%;
+            max-width: 400px;
             text-align: center;
         }
 
         .button {
             display: block;
-            width: 200px;
+            width: 100%;
+            max-width: 300px;
             margin: 15px auto;
             padding: 15px;
             background-color: #c7c8ca;
@@ -33,6 +38,7 @@
             border: none;
             cursor: pointer;
             transition: background-color 0.3s;
+            box-sizing: border-box;
         }
 
         .button:hover {
